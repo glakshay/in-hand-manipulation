@@ -1,5 +1,4 @@
-# mer_lab
-Joint repository for the Manipulation and Environmental Robotics Lab
+
 
 ## ROS Workspace
 The 'ros_ws' folder contains all the ROS packages and projects.  For a description of what each folder and directory does, please refer to their individual 'README.md' files.
@@ -13,8 +12,8 @@ Avoid using generic names for items in the 'projects' folder, like a node called
 ### Setup
 To setup the ros workspace locally:
 1. Go to the workspace location you want
-2. Run 'git clone https://www.github.com/berkcalli/mer_lab.git'
-3. 'cd' into the mer_lab repository
+2. Run 'git clone'
+3. 'cd' into the repository
 4. Run 'rosdep install --from-paths --ignore-src ros_ws -y' to install all dependencies
 5. 'cd' into the 'ros_ws' folder
 6. Run 'catkin_make'
@@ -47,5 +46,4 @@ The process to do so is as follows:
     4. Try launching moveit from the required package that needs it and connecting to it
     5. If successfull, delete old moveit_config package
 
-## Matlab
-Please place all MATLAB scripts relevant to your project here.  To keep things organized, create a folder for your project and place the scripts inside it.
+
