@@ -1,13 +1,7 @@
 
 
-## ROS Workspace
-The 'ros_ws' folder contains all the ROS packages and projects.  For a description of what each folder and directory does, please refer to their individual 'README.md' files.
-
-In brief, everything in the 'src' folder outside of the 'projects' folder are general packages that can be used by anyone in workspace, and are a general list of packages that can be used by others.
-
-Anything in the 'projects' folder is project-specific, and are usually not meant to be used by others.  If you are looking to start up a new project/package, please create it here.  If possible, please organize all your project's packages into a single folder containing them.  This helps prevent clutter and keeps things organized.
-
-Avoid using generic names for items in the 'projects' folder, like a node called 'robot\_simulator'.  If a package is really general, move it outside the projects folder and modify it to be flexible and modular.  Otherwise, be more specific with names to avoid collisions when running 'catkin\_make'.
+## src 
+The 'src' folder contains all the ROS project.  For a description of what each folder and directory does, please refer to their individual 'README.md' files.
 
 ### Setup
 To setup the ros workspace locally:
