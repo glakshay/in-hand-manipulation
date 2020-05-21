@@ -1,4 +1,6 @@
+## In-hand Manipulation 
 
+This work is done in simulation using Franca 7 DOF arm and with Variable friction gripper. The project aims at integrating the gripper with the franca arm to attempt to grasp objects, slide and rotate blocks in Gazebo simulator (supported by ROS).
 
 ## src 
 The 'src' folder contains all the ROS project.  For a description of what each folder and directory does, please refer to their individual 'README.md' files.
